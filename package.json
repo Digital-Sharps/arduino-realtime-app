@@ -1,0 +1,22 @@
+{
+  "name": "arduino-realtime-app",
+  "version": "1.0.0",
+  "description": "A realtime application for controlling an Arduino from a browser using Nodejs and web sockets.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digital-Sharps/arduino-realtime-app.git"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "DigitalSharps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Digital-Sharps/arduino-realtime-app/issues"
+  },
+  "homepage": "https://github.com/Digital-Sharps/arduino-realtime-app#readme"
+}
