@@ -15,6 +15,9 @@
   ],
   "author": "DigitalSharps",
   "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
   "bugs": {
     "url": "https://github.com/Digital-Sharps/arduino-realtime-app/issues"
   },
