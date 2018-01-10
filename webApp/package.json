@@ -16,6 +16,7 @@
   "author": "DigitalSharps",
   "license": "MIT",
   "dependencies": {
+    "@angular/cli": "^1.6.3",
     "express": "^4.13.4"
   },
   "bugs": {
