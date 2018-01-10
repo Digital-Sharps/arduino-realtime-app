@@ -3,11 +3,20 @@
 'use strict';
 
 var express = require('express');
+var path = require('path');
 
 var app = express();
 
 app.get('/', function(req, res){
-    res.status(200).send('Hello from the Arduino Realtime App');
+    var ip = req.connection.remoteAddress.substr(7);
+    res.status(200).sendFile(path.join(__dirname + '/files/index.html'));
+    console.log(ip + ' accessed mainpage');
+});
+
+app.get('/api', function(req, res){
+    var ip = req.connection.remoteAddress.substr(7);
+    res.status(200).sendFile(path.join(__dirname+'/files/api.html'));
+    console.log(ip + ' accessed API page');
 });
 
 var server = app.listen(process.env.PORT || '8080', function(){
